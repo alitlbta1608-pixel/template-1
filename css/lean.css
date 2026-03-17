@@ -85,10 +85,21 @@ width:1170px;
 
 
 .header{
- padding: 20px;
- 
-
+ padding: 11px;;
+ position:fixed;
+ z-index: 1;
+ background-color: #ddd;
+ width: 100%;
 }
+.header::before{
+  content: "";
+ color: #10cab7; 
+ background-color: #10cab7;
+ 
+ 
+}
+
+
 .header .container {
   display: flex;
   justify-content: space-between;
